@@ -2,59 +2,23 @@
 
 Firmware is now available in the Ergohaven documentation:
 
-- [Русская версия](https://docs.ergohaven.xyz/firmware/)
-- [English version](https://docs.ergohaven.xyz/en/firmware/)
+- [Русская версия](https://docs.eh.works/firmware/)
+- [English version](https://docs.eh.industries/firmware/)
 
 <details>
 <summary>Firmware archive</summary>
 
-## RMK (wireless)
-| Device       | Standard layout                                |
-| ------------ | ---------------------------------------------- |
-| K:03 v4      | [left][r80] [right][r82]                       |
-| Imperial44   | [left][r90] [right][r92]                       |
-| OP36         | [left][r50] [right][r52]                       |
-| Velvet v3    | [left][r60] [right][r62]                       |
-| Velvet v3 UI | [left][r70] [right][r71]                       |
-| Trackball    | [mini v3.0][r40]                               |
-
-
-[Reset all settings for RMK device][r00]
-
-[r00]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/rmk_settings_reset.uf2
-
-[r40]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_trackball_mini_v3.0.uf2
-
-[r50]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_op36_left.uf2
-[r52]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_op36_right.uf2
-
-[r60]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_velvet_left.uf2
-[r62]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_velvet_right.uf2
-
-[r70]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_velvet_ui_left.uf2
-[r71]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_velvet_ui_right.uf2
-
-[r80]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_k03_left.uf2
-[r82]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_k03_right.uf2
-
-[r90]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_imperial44_left.uf2
-[r92]: https://github.com/ergohaven/rmk-eh/releases/download/v0.1.1/0.1.1_imperial44_right.uf2
-
-
 ## QMK (wired)
 | Previous devices                                    | Current devices                   |
 | --------------------------------------------------- | --------------------------------- |
-| [K:03 v1/v2][q05]                                   | [K:03 v3/v4][q19]                 |
-| [Imperial44 v1/v2][q06]                             | [Imperial44 v3/v4][q24]           |
+| [K:03 v1/v2][q05]                                   |                                   |
+| [Imperial44 v1/v2][q06]                             |                                   |
 | [Planeta v1][q08]                                   | [Planeta v2][q09]                 |
-| [M4CR0Pad v1][q10]</br>[M4CR0Pad v2][q11]           |              |
-| [Velvet v1][q13]</br>[Velvet v2][q14]               | [Velvet v3][q17]                  |
+| [M4CR0Pad v1][q10]</br>[M4CR0Pad v2][q11]           |                                   |
+| [Velvet v1][q13]</br>[Velvet v2][q14]               |                                   |
 | [Trackball v1][q15]                                 | [Trackball v2][q20]               |
-| [K:03 PRO v1 43mm][q16]</br>[K:03 PRO v1 65mm][q18] | [K:03 PRO v2/v3][q25]             |
-| [HPD v1][q04]                                       | [HPD v2 (no modules)][q21]        |
-|                                                     | [HPD v2 (encoder/trackball)][q22] |
-|                                                     | [HPD v2 (encoder/touch)][q23]     |
-|                                                     | [HPD v2 (encoder/joystick)][q26]  |
+| [K:03 PRO v1 43mm][q16]</br>[K:03 PRO v1 65mm][q18] |                                   |
+| [HPD v1][q04]                                       |                                   |
 | [K:02][q07]                                         |                                   |
 | [Remnant][q12]                                      |                                   |
 
@@ -71,16 +35,8 @@ Firmware is now available in the Ergohaven documentation:
 [q14]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_velvet_v2.uf2
 [q15]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_trackball_v1.uf2
 [q16]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_k03pro_43mm_v1.uf2
-[q17]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_velvet_v3.uf2
 [q18]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_k03pro_65mm_v1.uf2
-[q19]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_k03_v3_v4.uf2
 [q20]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_trackball_v2.uf2
-[q21]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_hpd_v2.uf2
-[q22]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_hpd_v2_enc_ball.uf2
-[q23]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_hpd_v2_enc_touch.uf2
-[q24]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_imperial44_v3_v4.uf2
-[q25]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_k03pro_v2_v3.uf2
-[q26]: https://github.com/ergohaven/vial-qmk/releases/download/4.0.5/4.0.5_hpd_v2_enc_joy.uf2
 
 ## ZMK (wireless)
 | Device              | Standard layout                                | RuEn layout                          |
@@ -95,16 +51,13 @@ Firmware is now available in the Ergohaven documentation:
 | Velvet v3 + Qube    | [left][z63] [right][z62] [qube][z64]           | [left][z63] [right][z62] [qube][z65] |
 | Velvet v3 UI        | [left][z70] [right][z71]                       | [left][z70] [right][z72]             |
 | Velvet v3 UI + Qube | [left][z70] [right][z73] [qube][z74]           | [left][z70] [right][z73] [qube][z75] |
-| Trackball           | [mini v3.0][z40] [mini v3.1][z41] [royale][z42] |                                      |
-
 
 [Reset all settings for ZMK device][z00]
 
-[z00]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/settings_reset-ergohaven-zmk.uf2
+[ZMK - Qube migration from RMK][z01]
 
-[z40]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/trackball_v3.0-ergohaven-zmk.uf2
-[z41]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/trackball_v3.1-ergohaven-zmk.uf2
-[z42]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/trackball_royal-ergohaven-zmk.uf2
+[z00]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/settings_reset-ergohaven-zmk.uf2
+[z01]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/qube_rmk_to_zmk_reset.uf2
 
 [z50]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/op36_left-ergohaven-zmk.uf2
 [z51]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/op36_left_ruen-ergohaven-zmk.uf2
@@ -134,7 +87,6 @@ Firmware is now available in the Ergohaven documentation:
 [z84]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/k03_qube-ergohaven-zmk.uf2
 [z85]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/k03_qube_ruen-ergohaven-zmk.uf2
 
-[z90]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/imperial44_left-ergohaven-zmk.uf2
 [z90]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/imperial44_left-ergohaven-zmk.uf2
 [z91]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/imperial44_left_ruen-ergohaven-zmk.uf2
 [z92]: https://github.com/ergohaven/ergohaven-zmk/releases/download/2026.03.16/imperial44_right-ergohaven-zmk.uf2
